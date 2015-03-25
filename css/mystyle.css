@@ -1,0 +1,211 @@
+@-webkit-keyframes headers2
+		{
+		from {
+		width:1px;
+		
+			
+				}
+		to {
+		width:100%;
+		
+						}
+		}
+		@keyframes header1
+		{
+		from {
+		width:1px;
+		
+			
+				}
+		to {
+		width:100%;
+		
+		
+						}
+		}
+@-webkit-keyframes headers
+		{
+		from {
+		-webkit-transform: scale(0,0);
+		
+			
+				}
+		to {
+		-webkit-transform: scale(1.05,1.05);
+		
+						}
+		}
+		@keyframes header1
+		{
+		from {
+		transform: scale(1,1);
+		
+			
+				}
+		to {
+		transform: scale(1.05,1.05);
+		
+						}
+		}
+		@-webkit-keyframes header1
+		{
+		from {
+		-webkit-transform: scale(1,1);
+		
+			
+				}
+		to {
+		-webkit-transform: scale(1.05,1.05);
+		
+						}
+		}
+				@keyframes pics1
+		{
+		from {
+		transform: scale(1,1) rotate(7deg);
+	
+			
+				}
+		to {
+		transform: scale(1.03,1.03) rotate(-7deg);
+		;
+						}
+		}
+				@-webkit-keyframes pics1
+		{
+		from {
+		-webkit-transform: scale(1,1) rotate(7deg);
+		
+			
+				}
+		to {
+		-webkit-transform: scale(1.03,1.03) rotate(-7deg);
+		
+						}
+		}
+					@keyframes pics2
+		{
+		from {
+		transform: scale(1,1) rotate(-7deg);
+	
+			
+				}
+		to {
+		transform: scale(1.03,1.03) rotate(7deg);
+		;
+						}
+		}
+					@-webkit-keyframes pics2
+		{
+		from {
+		-webkit-transform: scale(1,1) rotate(-7deg);
+		
+			
+				}
+		to {
+		-webkit-transform: scale(1.03,1.03) rotate(7deg);
+		
+						}
+		}
+	@-webkit-keyframes header
+		{
+		from {
+		-webkit-transform: scale(1,1);
+		
+			
+				}
+		to {
+		-webkit-transform: scale(1.05,1.05);
+		
+						}
+		}
+		@keyframes header
+		{
+		from {
+		transform: scale(1,1);
+		
+			
+				}
+		to {
+		transform: scale(1.05,1.05);
+		
+						}
+		}
+				@-webkit-keyframes backanimate
+		{
+		from {
+		opacity: 1;
+		
+			
+				}
+		to {
+		opacity: 0;
+		
+						}
+		}
+				@keyframes backanimate
+		{
+		from {
+		opacity: 1;
+		
+			
+				}
+		to {
+		opacity: 0;
+		
+						}
+		}
+	
+	.head
+		{
+		-webkit-animation: headers2 0.5s;
+-webkit-animation: header 0.5s alternate infinite;
+animation: header 0.5s alternate infinite;
+	
+		animation: headers2 0.5s;
+		
+
+		}
+	#pics2,#start1
+	{
+	-webkit-animation: pics2 4.3s alternate infinite;
+   animation: pics2 4.3alternate infinite;
+	
+box-shadow:1px 1px 5px black;
+	}
+
+	
+	#pics1,#start2
+	{
+	-webkit-animation: pics1 3.9s alternate infinite;
+   animation: pics1 3.9 alternate infinite;
+	
+box-shadow:1px 1px 5px black;
+	}
+
+
+	.start
+	{
+	-webkit-animation: header 1.3s alternate infinite;
+   animation: header 1.3s alternate infinite;
+box-shadow:1px 1px 5px black;
+	}
+	
+
+	.start1
+	{
+	-webkit-animation: pics1 4.3s alternate infinite;
+   animation: pics1 4.3s alternate infinite;
+	
+	}
+
+	.start2
+	{
+	-webkit-animation: pics2 3.9s alternate infinite;
+   animation: pics2 3.9s alternate infinite;
+	
+	}
+
+
+
+	
